@@ -1,36 +1,33 @@
 * {
   border: none;
   border-radius: 0;
-  font-family: "DejaVu Sans", "Font Awesome 5 Free";
+  font-family: "Fira Mono";
   font-size: 12px;
 }
 
 window .modules-left,
 window .modules-center,
 window .modules-right {
-  background: rgba(55, 59, 65, 0.85);
-  padding: 0px 8px 0px 8px;
+  background: transparent;
+  padding: 0px 6px 0px 6px;
+  margin: 0px;
 }
 
+window .modules-center,
+window .modules-right,
 window .modules-left {
   border-radius: 16px;
 }
 
-window .modules-right {
-  border-radius: 16px;
-}
 
-window .modules-center {
-  border-radius: 16px;
-}
 window#waybar {
-  background: transparent;
+  background: rgba(55, 59, 65, 0.85);
+ /* border-radius: 16px;*/
 }
 
 window > box {
-  margin: 5px 0px 5px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  background: rgba(43, 48, 59, 0);
   color: white;
   border-radius: 16px;
   min-height: 32px;

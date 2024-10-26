@@ -1,19 +1,15 @@
 { 
+  //"width": 800,
 
     "modules-left": ["sway/workspaces"],
-    "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "network", "battery"],
+    "modules-center": ["backlight", "idle_inhibitor", "network", "battery"],
+    "modules-right": ["clock"],
 
         
     "sway/workspaces": {
          "disable-scroll": true,
          "all-outputs": true,
-         "format": "{value}",
-         "format-icons": {
-            "urgent": ": ",
-            "focused": "",
-            "default": ""
-         }
+         "format": "{value}"
     },
 
     "idle_inhibitor": {
@@ -30,6 +26,10 @@
         "format-alt": "{:%A, %d %B, %Y}",
         "tooltip-format": "<big>{:%d %B, %Y}</big>\n<tt><small>{calendar}</small></tt>"
     },
+  "backlight": {
+        "format": "{icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
 
 
     "battery": {

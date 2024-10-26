@@ -21,6 +21,10 @@ set $term kitty
 # set $menu dmenu_run | swaymsg exec --
 set $menu wofi --show drun
 font pango:FiraMono Nerd Font 10
+titlebar_border_thickness 0
+titlebar_padding 0
+
+default_border none
 
 ### Output configuration
 #
@@ -75,6 +79,7 @@ output * background ~/Pictures/bg1.jpg fit
 
     # Start your launcher
     bindsym $mod+space exec $menu
+    
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -210,6 +215,9 @@ exec_always killall waybar
 exec_always autotiling-rs
 
 exec_always waybar
+
+exec dhcpd
+exec dhcpd wlan0
 #
 #bar {
 #    position bottom

@@ -1,9 +1,9 @@
 window {
-  font-family: "DejaVu Sans", "Font Awesome 5 Free";
-  margin: 0px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  font-family: "FiraMono", "monoespace";
+  margin: 1px;
+  border: 1px solid rgba(0, 0, 0, 1);
   background-color: rgba(29, 31, 33, 0.95);
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 #input {
