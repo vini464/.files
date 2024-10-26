@@ -10,16 +10,6 @@
          "all-outputs": true,
          "format": "{value}",
          "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "", 
             "urgent": ": ",
             "focused": "",
             "default": ""
@@ -55,10 +45,10 @@
     },
 
     "network": {
-        "interval": 5,
+        "interval": 1,
         "format-wifi": "\uf1eb",
         "format-ethernet": "\uf796",
-        "format-disconnected": "\uf127  Offline",
+        "format-disconnected": "\uf127",
         "tooltip-format": "{ifname}: {ipaddr}",
         "tooltip-format-wifi": "{essid} ({signalStrength}%): {ipaddr}"
     }
