@@ -1,0 +1,17 @@
+
+image=~/.config/swaylock/pics/flcl1.png
+
+indicator
+indicator-radius=150
+indicator-idle-visible
+indicator-thickness=5
+indicator-x-position=180
+indicator-y-position=580
+inside-color=#FFFFFF00
+ring-color=#00000033
+clock
+font=FiraMono
+text-color=#000000FF
+show-failed-attempts
+ignore-empty-password
+

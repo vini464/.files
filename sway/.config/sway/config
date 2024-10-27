@@ -79,6 +79,15 @@ output * background ~/Pictures/bg1.jpg fit
 
     # Start your launcher
     bindsym $mod+space exec $menu
+
+# Screenshot a window
+    bindsym $mod+Print exec sway-screenshot -m window
+# Screenshot a monitor
+    bindsym Print exec sway-screenshot -m output
+# Screenshot a region
+    bindsym $mod+Shift+Print exec sway-screenshot -m region
+
+    bindsym $mod+Ctrl+l exec swaylock
     
 
     # Drag floating windows by holding down $mod and left mouse button.
@@ -218,6 +227,7 @@ exec_always waybar
 
 exec dhcpd
 exec dhcpd wlan0
+exec sway-screenshot -o "~/Pictures/screenshots/"
 #
 #bar {
 #    position bottom
